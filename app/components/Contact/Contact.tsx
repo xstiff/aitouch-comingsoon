@@ -18,10 +18,10 @@ export const Contact = () => {
         </div>
         <div className="contact-secondary-container">
           <a
-            href="mailto:contact@globalfunding-group.com"
+            href="mailto:contact@aitouch-consulting.com"
             className={`email-mailto ${font.className}`}
           >
-            contact@globalfunding-group.com
+            contact@aitouch-consulting.com
           </a>
         </div>
       </div>
