@@ -1,0 +1,52 @@
+.countdown-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #1F398F;
+
+  .square {
+    // background: #c9c6c6;
+    margin: 2em;
+
+    .square-top {
+      display: flex;
+      justify-content: center;
+      p {
+        // color: #fff;
+        // text-shadow: 3px 3px #000000e8;
+        // filter: blur(2px);
+        // color: rgba(242, 242, 242);
+        // // color: rgba(0, 0, 0, 0.5);
+
+        // // opacity: 0.2;
+        font-weight: 1000;
+        font-size: 2em;
+
+        text-transform: uppercase;
+        color: #f1ebe5;
+        text-shadow: 0 8px 9px rgb(145, 145, 145),
+          0px -2px 1px rgba(242, 242, 242);
+        // font-weight: bold;
+        text-align: center;
+      }
+    }
+    .square-bottom {
+      display: flex;
+      justify-content: center;
+
+      p {
+        font-size: 2em;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .countdown-container .flipclock {
+    font-size: 0.67em;
+  }
+}

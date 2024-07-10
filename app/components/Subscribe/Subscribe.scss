@@ -1,0 +1,181 @@
+.subscribe-container {
+  margin-top: 2%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+
+  .header-container {
+    width: 100%;
+  }
+  input {
+    width: 15rem;
+    padding: 9px 12px;
+    margin-right: 20px;
+    outline: 0;
+    border-radius: 7px;
+    border: 1px solid black;
+    border: 0;
+    -webkit-box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    transition: box-shadow ease-in-out 0.2s;
+    font-size: 1em;
+    &:focus {
+      -webkit-box-shadow: 0px 0px 24px -2px rgba(66, 68, 90, 1);
+      -moz-box-shadow: 0px 0px 24px -2px rgba(66, 68, 90, 1);
+      box-shadow: 0px 0px 24px -2px rgba(66, 68, 90, 1);
+    }
+  }
+  button {
+    outline: 0;
+    border: 1px solid black;
+    border: 0;
+    border-radius: 7px;
+
+    padding: 9px 12px;
+    cursor: pointer;
+    background-color: #274590;
+    -webkit-box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    &:hover {
+      background-color: #3751a7;
+    }
+    &:active {
+      transform: scale(1.05);
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .subscribe-container {
+    button {
+      font-size: 0.9em;
+      padding: 6px 9px;
+    }
+  }
+}
+
+.subscribe-popup {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 90%;
+  padding: 5% 2% 2% 2%;
+  height: auto;
+  background: #f8f6f6;
+  flex-direction: column;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 30px -10px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 30px -10px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 30px -10px rgba(66, 68, 90, 1);
+  z-index: 100;
+
+  .subscribe-popup-close {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 1000;
+    position: absolute;
+    padding: 10px;
+    cursor: pointer;
+    top: 3%;
+    right: 3%;
+    transition: color ease-in-out 0.2s;
+    user-select: none;
+    color: #1F398F;
+
+    &:hover {
+      color: rgb(255, 0, 0);
+    }
+
+    &:active {
+      transform: scale(1.1);
+    }
+  }
+
+  input {
+    width: 15rem;
+    padding: 9px 12px;
+    margin-right: 20px;
+    outline: 0;
+    border-radius: 7px;
+    border: 1px solid black;
+    border: 0;
+    -webkit-box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    transition: box-shadow ease-in-out 0.2s;
+    font-size: 1em;
+    &:focus {
+      -webkit-box-shadow: 0px 0px 24px -2px rgba(66, 68, 90, 1);
+      -moz-box-shadow: 0px 0px 24px -2px rgba(66, 68, 90, 1);
+      box-shadow: 0px 0px 24px -2px rgba(66, 68, 90, 1);
+    }
+  }
+  button {
+    outline: 0;
+    border: 1px solid black;
+    border: 0;
+    border-radius: 7px;
+    padding: 9px 12px;
+    cursor: pointer;
+    background-color: #1F398F;
+    -webkit-box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 24px -13px rgba(66, 68, 90, 1);
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+
+    &:hover {
+      background-color: #3751a7;
+    }
+    &:active {
+      transform: scale(1.05);
+    }
+  }
+  //
+  //  PopUp
+  //
+
+  .subscribe-popup-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 2%;
+      color: #1F398F;
+    }
+    p {
+      font-size: 1 em;
+      letter-spacing: 1.2px;
+      margin-bottom: 3%;
+      width: 80%;
+    }
+  }
+}
+
+.blur {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  background: #00000031;
+  z-index: 99;
+  backdrop-filter: blur(5px);
+}
