@@ -5,8 +5,8 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Global Funding",
-  description: "Global Funding - Specialises in assisting with the complex process of introducing projects to fund managers of private and public funds.",
+  title: "AI Touch",
+  description: "AI Touch - Specialises in customized AI solutions, training, and continuous process optimization, helping businesses streamline operations and improve efficiency",
 };
 
 export default function RootLayout({

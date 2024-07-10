@@ -36,7 +36,7 @@
   height: auto;
 }
 .coming-container p {
-  color: #274590;
+  color: #7B64D6;
   font-weight: 500;
 }
 
@@ -108,14 +108,14 @@
   border-radius: 7px;
   padding: 9px 12px;
   cursor: pointer;
-  background-color: #274590;
+  background-color: #7B64D6;
   box-shadow: 0px 0px 24px -13px rgb(66, 68, 90);
   color: #fff;
   font-size: 1em;
   font-weight: 600;
 }
 .subscribe-container button:hover {
-  background-color: #3751a7;
+  background-color: #a99ae6;
 }
 .subscribe-container button:active {
   transform: scale(1.05);
@@ -157,7 +157,7 @@
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  color: #1F398F;
+  color: #7B64D6;
 }
 .subscribe-popup .subscribe-popup-close:hover {
   color: rgb(255, 0, 0);
@@ -187,14 +187,14 @@
   border-radius: 7px;
   padding: 9px 12px;
   cursor: pointer;
-  background-color: #1F398F;
+  background-color: #7B64D6;
   box-shadow: 0px 0px 24px -13px rgb(66, 68, 90);
   color: #fff;
   font-size: 1em;
   font-weight: 600;
 }
 .subscribe-popup button:hover {
-  background-color: #3751a7;
+  background-color: #a99ae6;
 }
 .subscribe-popup button:active {
   transform: scale(1.05);
@@ -208,7 +208,7 @@
 .subscribe-popup .subscribe-popup-text h2 {
   font-size: 1.5em;
   margin-bottom: 2%;
-  color: #1F398F;
+  color: #7B64D6;
 }
 .subscribe-popup .subscribe-popup-text p {
   font-size: 1 em;
@@ -236,7 +236,7 @@
 }
 
 .ml-form-align-center p {
-  color: #139c9c;
+  color: #7B64D6;
 }
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\components\\Subscribe\\Subscribe.tsx","import":"DM_Sans","arguments":[{"subsets":["latin"],"weight":"300"}],"variableName":"font"} ***!
@@ -324,7 +324,7 @@
   }
 }
 .email-mailto {
-  color: #1F398F;
+  color: #2E214E;
   text-decoration: none;
   text-align: center;
 }
@@ -365,7 +365,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #1F398F;
+  color: #2E214E;
 }
 .countdown-container .square {
   margin: 2em;

@@ -27,7 +27,7 @@ const Countdown = () => {
             fontStyle: font.style.fontStyle,
             fontFamily: font.style.fontFamily,
             fontWeight: 800,
-            backgroundColor: "#1F398F",
+            backgroundColor: "#2E214E",
           }}
           showSeparators={false}
         />

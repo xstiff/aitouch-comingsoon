@@ -20,7 +20,7 @@ export const Main = () => {
           <Logo />
 
           <p className={fontSnd.className + " " + "description"}>
-          Specialises in assisting with the complex process of introducing projects to fund managers of private and public funds.
+          We provide customized AI solutions, training, and continuous process optimization, helping businesses streamline operations and improve efficiency.
 
           </p>
         </div>
